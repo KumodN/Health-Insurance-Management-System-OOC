@@ -8,9 +8,7 @@ void Report::setReportDetails(int rId, string rDate, string rType, string rDescr
 	reportType = rType;
 	reportDescription = rDescription;
 }
-/*int Report::getReportStatus(int rStatus) {
 
-}*/
 void Report::generateReport() {
 	cout << "************ |Report| ************" << endl;
 	cout << endl;

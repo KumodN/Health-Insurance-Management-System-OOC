@@ -25,7 +25,6 @@ int main()
 	Report* r1 = new Report();
 
 	r1->setReportDetails(103, "2024-04-01", "Monthly-user-activities", "New user enrollment,Number of banned users, Number of website visits during March");
-	r1->getReportStatus(int rStatus);
 	r1->generateReport();
 
 

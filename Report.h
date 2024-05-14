@@ -14,7 +14,6 @@ private:
 
 public:
 	void setReportDetails(int rId, string rDate, string rType, string rDescription);
-	int getReportStatus(int rStatus);
 	void generateReport();
 
 };
