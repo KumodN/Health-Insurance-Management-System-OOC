@@ -32,4 +32,3 @@ void Payment::displayPaymentDetails() {
 	cout << endl;
 
 }
-
